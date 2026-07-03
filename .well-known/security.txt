@@ -1,0 +1,4 @@
+Contact: tel:+919898788227
+Contact: mailto:hello@vethiq.com
+Preferred-Languages: en, hi, gu
+Canonical: https://vethiq.com/.well-known/security.txt
