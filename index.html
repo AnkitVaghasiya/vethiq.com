@@ -7,6 +7,7 @@
     <meta name="description" content="Official website of HK Factory Outlet (VethiQ) / VethiQ Luxury, a Surat based women ethnic wear retail store for kurtis, dresses, festive wear and daily wear collections." />
     <meta name="keywords" content="VethiQ Luxury, HK Factory Outlet VethiQ, women ethnic wear Surat, kurti Surat, ethnic dresses Surat, Punagam women wear store" />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#b98937" />
     <link rel="canonical" href="https://vethiq.com/" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="/styles.css" />
@@ -19,26 +20,69 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ClothingStore",
-        "@id": "https://vethiq.com/#store",
-        "name": "HK Factory Outlet (VethiQ)",
-        "alternateName": ["VethiQ Luxury", "VethiQ"],
-        "url": "https://vethiq.com/",
-        "telephone": "+91-9898788227",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "201, Street-8, Laxman Nagar Society, Kargil Chowk, Punagam",
-          "addressLocality": "Surat",
-          "addressRegion": "Gujarat",
-          "postalCode": "395006",
-          "addressCountry": "IN"
-        },
-        "sameAs": [
-          "https://www.instagram.com/vethiqluxury/"
-        ],
-        "priceRange": "₹₹",
-        "description": "Surat based women ethnic wear retail store for kurtis, dresses, festive wear and daily wear collections.",
-        "areaServed": "Surat, Gujarat"
+        "@graph": [
+          {
+            "@type": "ClothingStore",
+            "@id": "https://vethiq.com/#store",
+            "name": "HK Factory Outlet (VethiQ)",
+            "alternateName": ["VethiQ Luxury", "VethiQ"],
+            "url": "https://vethiq.com/",
+            "telephone": "+91-9898788227",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "201, Street-8, Laxman Nagar Society, Kargil Chowk, Punagam",
+              "addressLocality": "Surat",
+              "addressRegion": "Gujarat",
+              "postalCode": "395006",
+              "addressCountry": "IN"
+            },
+            "sameAs": [
+              "https://www.instagram.com/vethiqluxury/"
+            ],
+            "priceRange": "₹₹",
+            "description": "Surat based women ethnic wear retail store for kurtis, dresses, festive wear and daily wear collections.",
+            "areaServed": "Surat, Gujarat",
+            "hasMap": "https://www.google.com/maps/search/?api=1&query=HK%20Factory%20Outlet%20(VethiQ)%20201%20Street-8%20Laxman%20Nagar%20Society%20Kargil%20Chowk%20Punagam%20Surat%20395006",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-9898788227",
+              "contactType": "customer support",
+              "areaServed": "IN",
+              "availableLanguage": ["Gujarati", "Hindi", "English"]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://vethiq.com/#website",
+            "url": "https://vethiq.com/",
+            "name": "VethiQ Luxury",
+            "publisher": {
+              "@id": "https://vethiq.com/#store"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://vethiq.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is this the official website of VethiQ Luxury?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. vethiq.com is the official website for HK Factory Outlet (VethiQ), also known as VethiQ Luxury, located in Punagam, Surat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can customers confirm prices and stock?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Customers can call or WhatsApp 9898788227. Product price, size and color availability can change based on live store stock."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -58,6 +102,7 @@
           <a href="#offer">Offer</a>
           <a href="#about">About</a>
           <a href="#visit">Visit</a>
+          <a href="/contact.html">Contact</a>
           <a class="nav-cta" href="https://wa.me/919898788227?text=Hi%20VethiQ%20Luxury%2C%20I%20want%20more%20details%20about%20your%20collection." rel="noopener">WhatsApp</a>
         </div>
       </nav>
@@ -181,6 +226,32 @@
           <a class="button button-soft" href="mailto:hello@vethiq.com">hello@vethiq.com</a>
         </div>
       </section>
+
+      <section class="section faq" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">Customer FAQ</p>
+          <h2>Quick answers before you visit VethiQ Luxury.</h2>
+          <p>For the fastest response, WhatsApp the store team with your size, preferred color and budget.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>Is this the official website?</h3>
+            <p>Yes. This is the official website for HK Factory Outlet (VethiQ), also known as VethiQ Luxury, located in Punagam, Surat.</p>
+          </article>
+          <article class="faq-card">
+            <h3>How do I confirm prices and stock?</h3>
+            <p>Please call or WhatsApp 9898788227. Product price, size and color availability can change based on live store stock.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Which languages can the store support?</h3>
+            <p>The store team can help customers in Gujarati, Hindi and English for collection details, offers and directions.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Where is the store located?</h3>
+            <p>201, Street-8, Laxman Nagar Society, Kargil Chowk, Punagam, Surat, Gujarat - 395006.</p>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
@@ -189,6 +260,7 @@
         <p>Official website of HK Factory Outlet (VethiQ), Surat.</p>
       </div>
       <div class="footer-links">
+        <a href="/contact.html">Contact</a>
         <a href="/privacy.html">Privacy Policy</a>
         <a href="/terms.html">Terms</a>
         <a href="#top">Back to top</a>

@@ -390,6 +390,37 @@ h3 {
   color: #ffe09a;
 }
 
+.faq-grid,
+.contact-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.faq-card,
+.contact-proof-grid .contact-card {
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  padding: 26px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+  box-shadow: var(--shadow);
+}
+
+.faq-card p,
+.contact-proof-grid p {
+  color: var(--muted);
+}
+
+.contact-proof-grid h2 {
+  margin-bottom: 10px;
+  font-size: 23px;
+  letter-spacing: -0.02em;
+}
+
+.contact-shell .map-actions {
+  margin: 34px 0;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -500,7 +531,9 @@ h3 {
   }
 
   .collection-grid,
-  .visit-grid {
+  .visit-grid,
+  .faq-grid,
+  .contact-proof-grid {
     grid-template-columns: 1fr;
   }
 
@@ -523,6 +556,7 @@ h3 {
   .hero-card,
   .offer-band,
   .collection-card,
+  .faq-card,
   .contact-card,
   .about-panel,
   .service-list {
